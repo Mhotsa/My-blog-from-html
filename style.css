@@ -1,0 +1,36 @@
+#MyHeader{
+    box-shadow: 6px 5px 10px 3px #707070;
+    transition: 0.3s;
+    width: 800px;
+    padding: 10px;
+    margin-top: 20px;
+}
+#MyHeader:hover{
+    box-shadow: 11px 7px 11px 4px #707070;
+}
+#title{
+    box-shadow: 6px 5px 10px 3px #727272;
+    transition: 0.3s;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+#title:hover{
+    box-shadow: 11px 7px 11px 4px #727272;
+}
+#title2{
+    box-shadow: 6px 5px 10px 3px #727272;
+    transition: 0.3s;
+    width: 500px;
+    margin-bottom: 50px;
+}
+#title2:hover{
+    box-shadow: 11px 7px 11px 4px #727272;
+}
+*{
+    box-sizing: border-box;
+}
+#row{
+    display: flex;
+    flex-wrap: wrap;
+}
